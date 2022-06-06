@@ -1,0 +1,17 @@
+void setup(){
+  size(300,300);
+  background(0, 204, 204);
+}
+
+void draw(){
+  drawrumon(50,80, 40);
+  drawrumon(100,80, 40);
+  drawrumon(150,80, 40);
+  drawrumon(200,80, 40);
+  drawrumon(250,80, 40);
+}
+ 
+void drawrumon(float a, float b, float c){
+   fill(255,0,255);
+  ellipse(a,b,c,c);
+ }
